@@ -21,7 +21,7 @@ GamePlayManager = {
 		me.crow.animations.play("right");
 		
 		me.man=me.game.add.sprite(100,350,"man");
-		me.man.animations.add("right",[0,1,2,3],10,true);
+		me.man.animations.add("right",[0,1,2,3,4,5],10,true);
 		//me.man.animations.add("left",[15,14,13,12,11,10,9,8],10,true);
 		me.game.cursores=me.input.keyboard.createCursorKeys();
 		me.game.physics.startSystem(Phaser.Physics.ARCADE);
