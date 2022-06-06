@@ -8,7 +8,7 @@ GamePlayManager = {
 		var me=this;
         me.load.image('background',"fondo1.png");
 		me.load.spritesheet("crow","crow.png",97,120);
-		me.load.spritesheet("man","megaman.png",69,188);
+		me.load.spritesheet("man","hombre.png",121,343);
 		
     },
     create: function() {
