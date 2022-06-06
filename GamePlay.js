@@ -6,7 +6,7 @@ GamePlayManager = {
     },
     preload: function() {
 		var me=this;
-        me.load.image('background',"assets/images/fondo1.png");
+        me.load.image('background',"fondo1.png");
 		me.load.spritesheet("crow","crow.png",97,120);
 		me.load.spritesheet("man","megaman.png",69,188);
 		
